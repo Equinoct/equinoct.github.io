@@ -1,0 +1,76 @@
+---
+layout: default
+
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  <div class="home-container" style=>
+      <h1 class='heading'>Tidal Calender</h1>
+      <div class='tidal-img'>
+      <img src="/assets/images/Equinoct_Favicon.png" alt="" width="250px">
+      </div>
+      <p>The Tidal Calender application allows residents
+         of coastal regions affected by tidal flooding to upload relevant data and media. This data
+         will be used for research and co-creating community solutions for the worsening tidal situation
+         we are faced with.
+      </p>
+      <p>
+        Currently, only the android version of the application is in existence. The web and iOS versions
+        are under development, and will be available at this website soon. You will be required to use
+        an email address to register your account on the application.
+      </p>
+
+      <div class="instructions">
+        <h2 style="text-align:center">Instructions</h2>
+        <h4 style="color:red; text-align:center">Kindly read instructions before you proceed. The app is not available on
+        Google Play Store yet, so you need to follow certain steps to 'Allow App Installation fron Unknown
+        Sources' to install the app. As soon as it is available, we shall update the page
+        with the Play Store link to the application.</h4>
+        <ol>
+          <li>Click on the 'Download Tidal Calender APK' button below. The .apk file will get downloaded
+          to your device.</li>
+          <li>Now, you can install the application either through the downloads within your browser, for ex. Chrome,
+            or through your file manager application. </li>
+          <li>You will need to allow "Install unknown apps" for that application. For this,
+            Open Settings > Apps > Special App Access. 'Special App Access' may be within
+            'Advanced' under Apps.
+          </li>
+          <li>
+            Tap on 'Install Unknown Apps' and then on the app that you are going to use to install
+            the Tidal Calender application. Enable the toggle next to "Allow from this source".
+          </li>
+          <li>
+            Go to the relevant application, i.e., Chrome / File Manager and click on the tidal_calender.apk file.
+            The file will appear under 'downloads' in Chrome / File Manager.
+            Follow the onscreen prompts to install the Tidal Calender application.
+          </li>
+          <li>
+            In case you have a device with different settings / android version, kindly go to this
+            <a href="https://www.maketecheasier.com/install-apps-from-unknown-sources-android/">link</a> where
+            you will be able to find detailed instructions on allowing install from unknown sources.
+          </li>
+        </ol>
+      </div>
+      <a href="download/tidal_calender.apk" download="tidal_calender.apk">
+        <button type="button" name="button">
+            <div class="download-button">
+              <h3>Download Tidal Calender APK</h3>
+            </div>
+        </button>
+      </a>
+      <div class="note">
+        <p style="color:green">The data collected through this program will be used
+          only for research and co-creating community solutions.
+        </p>
+      </div>
+
+
+  </div>
+
+</div>
