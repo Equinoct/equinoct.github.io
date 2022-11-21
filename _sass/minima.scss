@@ -50,22 +50,66 @@ $on-laptop:        800px !default;
   "minima/syntax-highlighting"
 ;
 
-.footer-col-4 { width: -webkit-calc(65% - (30px / 2)); width: calc(65% - (30px / 2)); vertical-align: middle;}
+.footer-col-4 {
+  width: -webkit-calc(65% - (30px / 2));
+  width: calc(65% - (30px / 2));
+  vertical-align: middle;
+}
 
-@media screen and (max-width: 800px) { .footer-col-4 { width: -webkit-calc(100% - (30px / 2)); width: calc(100% - (30px / 2)); } }
+@media screen and (max-width: 800px) {
+  .footer-col-4 {
+    width: -webkit-calc(100% - (30px / 2));
+    width: calc(100% - (30px / 2));
+  }
+}
 
-.site-title-container { display: flex; flex-direction: column; }
+.site-title-container {
+  display: flex;
+  flex-direction: column;
+}
 
-.home-container { display: flex; flex-basis: stretch; align-items: center; flex-direction: column; background: #91F0D175; border-radius: 10px; padding: 3rem; font-size: 20px; text-align: center; }
+.home-container {
+  display: flex;
+  flex-basis: stretch;
+  align-items: center;
+  flex-direction: column;
+  background: #91F0D175;
+  border-radius: 10px;
+  padding: 1.5rem;
+  font-size: 17px;
+  text-align: center;
+}
 
-.instructions { padding: 20px; font-size: 20px; text-align: left; }
+@media screen and (max-width: 800px) {
+  .home-container {
+    padding: 0.5rem;
+  }
+}
 
-.note { padding: 40px 120px 40px 120px; }
+.instructions {
+  font-size: 17px;
+  text-align: left;
+}
 
-.download-button { padding: 5px; vertical-align: middle; cursor: pointer;}
+.note {
+  padding-top: 20px;
+}
 
-.tidal-img { padding-bottom: 3rem; }
+.download-button {
+  padding: 5px;
+  vertical-align: middle;
+  cursor: pointer;
+}
 
-.heading { font-family: monospace; }
+.tidal-img {
+  padding-bottom: 1rem;
+}
 
-.site-nav { margin-top: 0px;}
+.home-heading {
+  margin-bottom: 0px;
+  font-family: monospace;
+}
+
+.site-nav {
+  margin-top: 0px;
+}
